@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #191970; /* Azul meia-noite */
+    color: #000000; /* Cor do texto */
+}
+
+header {
+    background-color: #000080; /* Azul meia-noite para o cabeçalho */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: justify;
+}
+
+#mensagem {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#mensagem p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.love-image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+button {
+    background-color: #000080; /* Azul meia-noite para os botões */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0000cd; /* Azul mais claro no hover dos botões */
+}
+
+#mensagemAmor {
+    text-align: center;
+    font-size: 24px;
+    color: #000; /* Texto "Eu te amo" em vermelho */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.heart-icon {
+    color: #ff0000; /* Coração em vermelho */
+}
+
+/* Estilos para tornar a página responsiva */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    #mensagem p {
+        font-size: 16px;
+    }
+    button {
+        padding: 8px 16px;
+    }
+}
+
